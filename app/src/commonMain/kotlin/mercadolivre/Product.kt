@@ -1,5 +1,19 @@
-package com.erafael.mercadolivre
+package com.erafael.mercadolivre.mercadolivre
 
+import com.erafael.mercadolivre.Res
+import com.erafael.mercadolivre.n1
+import com.erafael.mercadolivre.n2
+import com.erafael.mercadolivre.n3
+import com.erafael.mercadolivre.n4
+import com.erafael.mercadolivre.n5
+import com.erafael.mercadolivre.n7
+import com.erafael.mercadolivre.nd1
+import com.erafael.mercadolivre.nd2
+import com.erafael.mercadolivre.nd3
+import com.erafael.mercadolivre.nd4
+import com.erafael.mercadolivre.nd6
+import com.erafael.mercadolivre.nd8
+import com.erafael.mercadolivre.nd9
 import org.jetbrains.compose.resources.DrawableResource
 
 data class Product(

@@ -8,6 +8,7 @@ import androidx.compose.material.icons.outlined.LocalOffer
 import androidx.compose.material.icons.outlined.SelectAll
 import androidx.compose.material.icons.outlined.South
 import androidx.compose.ui.graphics.vector.ImageVector
+import com.erafael.mercadolivre.mercadolivre.Product
 
 data class Category(
     val icon: ImageVector,
