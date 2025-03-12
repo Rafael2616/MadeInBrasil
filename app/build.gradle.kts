@@ -2,6 +2,7 @@
 plugins {
     alias(libs.plugins.rafael.application)
     alias(libs.plugins.rafael.application.compose)
+    alias(libs.plugins.firebase.googleo)
 }
 
 android {
@@ -23,6 +24,10 @@ kotlin {
             implementation(libs.androidx.activity.compose)
         }
     }
+}
+dependencies {
+    implementation(libs.firebase.auth.ktx)
+    implementation(libs.firebase.google)
 }
 
 compose.resources {
